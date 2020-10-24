@@ -1,0 +1,67 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'HortaRegular';
+}
+body{
+    background-color: #FFFEE9;
+}
+.landing {
+    display: flex;
+}
+.landing .car {
+    margin-right: 250px;
+}
+.landing .car img {
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 0px 50px 50px 50px;
+    transition: 0.9s;
+}
+.landing .car img:hover{
+    width: 550px;
+    transition: 0.8s;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.landing .logo {
+    text-align: center;
+}
+.landing .logo img{
+    margin-top: 55px;
+    margin-bottom: 15px;
+    transition: 0.9s;
+}
+.landing .logo img:hover{
+    transform: rotate(360deg);
+}
+.landing .logo p {
+    font-family: 'HortaRegular';
+    font-size: 24px;
+    padding: 30px 10px;
+    background-color: #000000;
+    color: #FFFEE9;
+    border-radius: 90px 0px 0px 90px;
+    transition: 0.8s;
+    margin-bottom: 30px;
+}
+.landing .logo p:hover {
+    border-radius: 0px 90px 90px 0px;
+}
+.landing .logo a {
+    background-color: #FFFEE9;
+    color: #000000;
+    border: 3px solid #000000;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.landing .logo a:hover {
+    padding: 20px 36px;
+    font-size: 24px;
+    background-color: #000000;
+    color: #FFFEE9;
+    transition: 0.3s;
+    border-radius: 35px;
+}
